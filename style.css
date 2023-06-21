@@ -1,0 +1,63 @@
+#section {
+  display: flex;
+}
+#header {
+  width: 100%;
+  background-color: aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: stretch;
+}
+
+nav {
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  font-size: 2.5em;
+}
+li {
+  display: inline-flex;
+  justify-content: space-between;
+}
+#heropicture {
+  display: flex;
+  margin: 30px auto;
+}
+#subbanner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: stretch;
+  margin: 30px auto;
+}
+.subimage {
+  margin-right: 30px;
+}
+#featuredsection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: stretch;
+  margin: 30px auto;
+}
+
+#featcont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  align-content: space-evenly;
+}
+footer {
+  width: 100%;
+  background-color: aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: stretch;
+}
+#footerimage {
+  display: flex;
+}
